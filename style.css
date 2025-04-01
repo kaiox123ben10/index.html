@@ -1,0 +1,36 @@
+/* Personalizando as cores e fontes */
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+}
+
+body {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+header {
+    margin-top: 50px;
+}
+
+h1 {
+    color: var(--primary-color);
+}
+
+footer {
+    background-color: #f8f9fa;
+}
+
+/* Estilos dos links */
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Modais */
+.modal-title {
+    font-weight: bold;
+}
